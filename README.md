@@ -136,7 +136,7 @@ CALCULATE([Total Revenue], Stores[Country] <> "Online")
 ---
 
 ## How to Run
-1. Download `GlobalStore.pbix` from this repository
+1. Download `Globalstore.pbix` from this repository
 2. Open in Power BI Desktop
 3. If prompted, update the data source file paths to point to your local copy of the source CSVs (Maven Analytics — Global Electronics Retailer)
 4. Refresh the data model
