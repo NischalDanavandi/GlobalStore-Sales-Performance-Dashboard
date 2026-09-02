@@ -18,8 +18,6 @@
 ## Overview
 Sales performance analysis for GlobalStore, a global electronics retailer, built in Power BI on a five-table relational dataset (Sales, Customers, Products, Stores, Exchange Rates). The dashboard tracks revenue, profitability, and growth trends across markets and product categories, with drill-through detail by country.
 
-**Live dashboard:** [add your published Power BI link here]
-
 ---
 
 ## Problem Statement
@@ -34,14 +32,14 @@ Source: Maven Analytics — Global Electronics Retailer dataset
 |---|---|---|
 | Sales | 62,884 | Order-line level transactions |
 | Products | 2,517 | Product catalog with cost/price |
-| Customers | [add row count] | Customer demographics |
+| Customers | 15,266 | Customer demographics |
 | Stores | 67 | Physical store locations + one Online placeholder |
-| Exchange_Rates | [add row count] | Currency conversion rates by date |
+| Exchange_Rates | 11215 | Currency conversion rates by date |
 
 ---
 
 ## Tools Used
-Power BI Desktop, Power Query (M), DAX, Power BI Service
+Power BI Desktop, Power Query (M), DAX, Data Modelling
 
 ---
 
@@ -130,7 +128,10 @@ CALCULATE([Total Revenue], Stores[Country] <> "Online")
 ---
 
 ## Dashboard Preview
-[add 2-3 screenshots here: Dashboard page, Country Detail drill-through page]
+<img width="1917" height="1016" alt="Screenshot 2026-09-02 192452" src="https://github.com/user-attachments/assets/1a55430f-9874-4877-9310-6e585a323efd" />
+<img width="1917" height="1017" alt="Screenshot 2026-09-02 192509" src="https://github.com/user-attachments/assets/618f2fcc-9b1e-4085-b8ce-0b7db76b71fb" />
+<img width="1917" height="972" alt="Screenshot 2026-09-02 192554" src="https://github.com/user-attachments/assets/96363a10-f143-4a5d-b525-36bc8dbbd769" />
+
 
 ---
 
@@ -140,10 +141,8 @@ CALCULATE([Total Revenue], Stores[Country] <> "Online")
 3. If prompted, update the data source file paths to point to your local copy of the source CSVs (Maven Analytics — Global Electronics Retailer)
 4. Refresh the data model
 
-Alternatively, view the published report directly: [add your published Power BI link here]
 
 ---
 
 ## Author
-Nischal Danavandi (ND)
-[GitHub](https://github.com/NischalDanavandi) · [Portfolio](https://datascienceportfol.io/nischaldanavandi11)
+Nischal Danavandi
